@@ -1,0 +1,229 @@
+body{
+  font:12px Arial,Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+
+}
+
+
+
+
+
+heading{
+  font-size: 20px;
+  font: bold;
+  font-family:monospace;
+
+}
+
+
+:target{
+
+background:#4F47C1;
+
+}
+
+
+marquee{
+font-size: 30px;
+
+
+}
+
+
+button{
+
+background: #FF0000;
+font-style: normal;
+font: bold;
+}
+
+p{
+
+text-align:  left;
+
+}
+p1{
+
+text-align:  left;
+
+}
+video{
+
+width: 500px;
+height:400px;
+background-color:  #000000;
+margin-left: auto;
+
+
+}
+h2{
+  float: left;
+  clear: left;
+  padding: 100px;
+  font-style: italic;
+}
+
+img{
+  float: right;
+  clear: right;
+  margin: auto;
+  width:300px;
+  height:220px;
+  margin-left :10px;
+  margin-bottom: 5px;
+  border: solid black 1px;
+  padding: 2px;
+
+}
+
+
+
+
+
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+ul{
+  margin:0;
+  padding:0;
+}
+header{
+  background:#FFFFFF;
+  color:#000000;
+  padding-top:40px;
+  min-height:70px;
+  border-bottom: black 3px solid;
+}
+
+.menu a {
+  color:#000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.menu li{
+  list-style: none;
+  display: inline-block;
+  padding:0 20px 0 20px;
+
+}
+
+.menu li a {
+text-decoration: none;
+position: relative;
+color: #313131;
+font-family: sans-serif;
+display: inline-block;
+overflow: hidden;
+transition: 0.7s all;
+padding:5px 5px;
+}
+
+
+
+header nav{
+  float: right;
+  margin-top: 0px;
+}
+
+
+
+
+.menu li#current a{
+  font-weight: bold;
+  color:  #000000;
+
+}
+
+ul li a:hover{
+background-color: #FF0000;
+transition: 0.2s;
+text-transform:uppercase;
+
+}
+
+
+
+#showcase{
+  min-height: 400px;
+  background:url("../img/ocean.jpg") no-repeat 0 -200px;
+  text-align: center;
+  color:black;
+  background-position: center;
+  background-size: cover;
+
+
+
+}
+
+
+subheading{
+
+    font-size: 20px;
+    font:bold;
+
+
+
+
+
+}
+
+#showcase h1{
+padding: 100px;
+margin-top: 0px;
+font-size: 55px;
+margin-bottom: 10px;
+}
+
+
+
+
+}
+
+.menu li#current a {
+
+  font-weight:bold;
+  color:#000000;
+
+}
+
+.menu a:hover{
+
+  color:#000000;
+  font-weight: bold;
+  transition: 0.8s all;
+}
+
+.eff::after{
+  content:'';
+  display:inline-block;
+  width:0;
+  height:5px;
+  background: black;
+  transition: width .3s;
+
+}
+
+.eff:hover::after{
+
+width:100%;
+transition:width .3s;
+
+
+}
+
+
+
+
+footer{
+
+text-align: center;
+
+}
